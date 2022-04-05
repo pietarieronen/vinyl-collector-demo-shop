@@ -1,0 +1,20 @@
+{
+  "name": "vinyl-collector-demo-shop",
+  "version": "1.0.0",
+  "description": "Full Stack Demo Project feat. Shopify",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pietarieronen/vinyl-collector-demo-shop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pietarieronen/vinyl-collector-demo-shop/issues"
+  },
+  "homepage": "https://github.com/pietarieronen/vinyl-collector-demo-shop#readme"
+}
