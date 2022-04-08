@@ -4,7 +4,8 @@
   "description": "Full Stack Demo Project feat. Shopify",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack serve --mode development --hot"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,23 @@
   "bugs": {
     "url": "https://github.com/pietarieronen/vinyl-collector-demo-shop/issues"
   },
-  "homepage": "https://github.com/pietarieronen/vinyl-collector-demo-shop#readme"
+  "homepage": "https://github.com/pietarieronen/vinyl-collector-demo-shop#readme",
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.43",
+    "@types/react-dom": "^17.0.14",
+    "css-loader": "^6.7.1",
+    "html-loader": "^3.1.0",
+    "html-webpack-plugin": "^5.5.0",
+    "prettier": "^2.6.2",
+    "tailwindcss": "^3.0.23",
+    "ts-loader": "^9.2.8",
+    "typescript": "^4.6.3",
+    "webpack": "^5.71.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.8.0"
+  }
 }
